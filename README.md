@@ -1,30 +1,12 @@
-# tiyou_college
+# TiU-College-Platform
 
->提优
+>提优教育平台
 
-## Build Setup
+TiU教学平台是⼀个集专业资源、技能考核及项⽬管理等功能为⼀体的教学管理平台，主要为⽤户提供便捷的学习 资源渠道。
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 技术栈
 
-# build for production with minification
-npm run build
+Vue2.0 + Element-UI + Vue-router + axios + Mysql
 
-# build for production and view the bundle analyzer report
-npm run build --report
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
