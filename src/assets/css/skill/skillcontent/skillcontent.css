@@ -1,0 +1,42 @@
+.spe_source_main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.spe_source_main_content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ccc{
+  /*justify-content:start;*/
+}
+.skillcontent_main .main_content_arg:not(:nth-child(-n+5))
+{
+  margin-top: 0.274rem;
+}
+
+.skillcontent_main .main_content_arg:not(:nth-child(-6n+6))
+{
+  margin-left: 0.75%;
+}
+.skillcontent_main .main_content_arg:first-child
+{
+  margin-left: 0;
+}
+.page{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-top: 0.256rem;
+  height: 0.366rem;
+  margin-bottom: 28.5px;
+}
+
+.el-pagination.is-background /deep/ .el-pager li:not(.disabled).active{
+  background-color: #00BDA5;
+}
+.el-pagination.is-background /deep/ .el-pager li:hover{
+  color: #00BDA5;
+}

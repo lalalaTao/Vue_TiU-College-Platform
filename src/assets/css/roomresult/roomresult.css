@@ -1,0 +1,118 @@
+.roomresult{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+.roomresult_first{
+  width: 70%;
+  height: 3.293rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.roomresult_first_title{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.jhfa{
+  background-color: red;
+}
+
+.lunbodiv{
+  padding: 0.323rem 0.25rem 0.348rem 0.25rem;
+  box-sizing: border-box;
+  height: 1.646rem;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px 0px rgba(118,118,118,0.30);
+}
+.swiper-pagination /deep/ .swiper-pagination-bullet-active {
+  background-color: #00BDA5
+}
+
+.lunbodiv_to{
+  width: 100%;
+  height: 100%;
+}
+.lunbodiv_to_top{
+  display: flex;
+  height: 0.293rem;
+  justify-content: space-between;
+}
+.toleft{
+  height: 100%;
+  width: 0.293rem;
+  font-size:0.293rem;
+  background-color: #CCF2ED;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+}
+.toleft_content{
+  line-height: 0.244rem;
+  font-size: 10.5px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #585858;
+  width: 100%;height:0.61rem ;word-wrap: break-word;
+  margin-top: 0.183rem;
+  word-break: break-all;
+  overflow: hidden;
+}
+.roomresult_sec{
+  height: 2.805rem;
+  width: 72%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec_detail{
+  width: 100%;
+  height: 2.24rem;
+  background: #fafafa;
+  border-radius: 3px;
+  box-shadow: 0px 3px 6px 0px rgba(118,118,118,0.30);
+}
+.roomresult_thi{
+  height: 3.049rem;
+  width: 72%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0.476rem;
+}
+.thi_detail{
+  height: 2.561rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 3px 6px 0px rgba(118,118,118,0.30);
+}
+.thi_img{
+  width: 6.97rem;
+  height: 1.546rem;
+}
+.thi_content{
+  width: 90%;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #282828;
+  line-height: 0.244rem;
+}
+.roomresult_for{
+  height: 3.049rem;
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+}

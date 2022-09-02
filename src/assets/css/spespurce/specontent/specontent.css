@@ -1,0 +1,230 @@
+.spe_source_main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.spe_source_main_content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ccc{
+  /*justify-content:start;*/
+}
+.skillcontent_main .main_content_arg:not(:nth-child(-n+5))
+{
+  margin-top: 0.274rem;
+}
+
+.skillcontent_main .main_content_arg:not(:nth-child(-6n+6))
+{
+  margin-left: 0.75%;
+}
+.skillcontent_main .main_content_arg:first-child
+{
+  margin-left: 0;
+}
+.page{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  /*margin-top: 0.256rem;*/
+  height: 0.366rem;
+  margin-bottom: 28.5px;
+}
+
+.el-pagination.is-background /deep/ .el-pager li:not(.disabled).active{
+  background-color: #00BDA5;
+}
+.el-pagination.is-background /deep/ .el-pager li:hover{
+  color: #00BDA5;
+}
+
+.main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  background: #f8f8f8;
+}
+.main_title{
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  width: 100%;
+}
+.main_title_left{
+  height: 100%;
+  font-weight: 700;
+  text-align: left;
+  color: #3f3f3f;
+  font-family: PingFang SC, PingFang SC-Bold;
+}
+.main_title_left_title{
+  height: 0.165rem;
+  font-size: 0.165rem;
+}
+.main_title_left_bgc{
+  width: 62px;
+  height: 4px;
+  background: #00bda5;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.main_title_right{
+  font-size: 0.11rem;
+  height: 20px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #3f3f3f;
+}
+
+.main_content{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.128rem 8px 8px 8px;
+}
+.main_content_img{
+  border-radius: 4px 4px 0px 0px;
+  width: 100%;
+  /*height: auto;*/
+  height: 1.341rem;
+}
+
+.main_content .main_content_arg:not(:first-child) {
+  /*padding-left: 0.5%;*/
+}
+
+.main_content_arg{
+  position: relative;
+  font-size: 0;
+  width: 19.4%;
+  margin-bottom: 25px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 2.97px 2.68px 8px 0px rgba(118,118,118,0.30);
+}
+
+.main_content_logos{
+  position: absolute;
+  top:0.061rem;
+  left: 0.061rem;
+  width: 0.4rem;
+  height: 0.22rem;
+  background: #ffa63d;
+  border-radius: 0.018rem;
+  font-size: 0.11rem ;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:12px;
+  min-width: 33px;
+}
+
+.main_content_info{
+  padding: 3%;
+}
+
+.course_type_container{
+  width: 80px;
+  height: 20px;
+  background: #d8f8f4;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course_type_span{
+  font-size: 12px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  color: #1db3a0;
+}
+
+.main_content_info_top{
+  font-size: 14px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  color: #262626;
+  margin-top: 3px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.main_content_info_bottom{
+  font-size: 0.15rem;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #989898;
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-between;
+  /*overflow: hidden;*/
+  /*white-space: nowrap;*/
+  /*text-overflow: ellipsis;*/
+}
+
+
+.main_content_info_bottom_left{
+  display: flex;
+  width: 80%;
+}
+.main_content_info_bottom_left_1{
+  font-size: 0.11rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.shu{
+  margin: 0 0.061rem;
+}
+.main_content_info_bottom_left_2{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.11rem;
+}
+.main_content_info_bottom_right{
+  width: 20%;
+  flex: 1;
+  font-size: 0.11rem;
+}
+img{
+  height: 100%;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  /*max-width: 100%;*/
+  /*max-height: 100%;*/
+  object-fit: cover;
+}
+.flag{
+  height: 20px;
+  color: #46BDAD;
+  font-size: 0.146rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:fit-content;
+  width:-webkit-fit-content;
+  width:-moz-fit-content;
+  background-color: #D8F8F4;
+  margin-top: 0.061rem;
+  justify-content: center;
+  border-radius: 3px;
+  margin-left: 0.122rem ;
+  padding: 0 4px;
+}
+

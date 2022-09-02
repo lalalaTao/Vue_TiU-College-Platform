@@ -1,0 +1,46 @@
+.practice_main{
+  margin-bottom: 0.311rem;
+  padding-top: 0.659rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.practice_content{
+  /*margin-top: 0.576rem;*/
+  width: 72%;
+  height: 7.134rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rout_path{
+  height: 0.573rem;
+  width: 72%;
+  display: flex;
+  align-items: center;
+  font-size: 0.146rem;
+}
+
+.shui_logo{
+  border-radius: 0 50% 50% 50%;
+  background-color: #00bda5;
+  width: 0.122rem;
+  height: 0.122rem;
+  transform: rotate(-135deg);
+}
+
+.rout_path /deep/ .el-breadcrumb{
+  margin : 10px;
+  font-size: 12px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #737373;
+}
+
+.el-breadcrumb /deep/ .el-breadcrumb__item:last-child .el-breadcrumb__inner{
+  color : #00BDA5
+}

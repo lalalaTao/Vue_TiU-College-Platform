@@ -1,0 +1,99 @@
+.notes_and_messages_main{
+  position: fixed;
+  right: 0;
+  top: 60px;
+  z-index: 2;
+  width: 394px;
+  height: 88%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  .note_message_close_container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -35px;
+    .note_message_close_btn{
+      width: 12px;
+      height: 11px;
+      margin: 0px 20px 0px 0px;
+      z-index: 1;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+  /deep/ .el-tabs{
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    .el-tabs__content{
+      height: 100%;
+      .el-tab-pane{
+        height: 93.5%;
+        .notes_main{
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .notes_content_container,.messages_content_container{
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            &::-webkit-scrollbar{
+              width: 5px;
+            }
+            &::-webkit-scrollbar-thumb{
+              background: #dbdbdb;
+              border-radius: 2px;
+            }
+          }
+          .editor_bar_container{
+            width: 100%;
+            height: auto;
+          }
+          .message_btn,.note_btn{
+            position: relative;
+          }
+        }
+      }
+    }
+  }
+
+  /deep/ .el-tabs__header{
+    margin: 0px;
+  }
+
+  /deep/ .el-tabs__active-bar{
+    height: 4px;
+    background: #00bda5;
+    border-radius: 2px;
+  }
+
+  /deep/ .el-tabs__nav-wrap::after{
+    height: 1px;
+    background: #ececec;
+  }
+
+  /deep/ .el-tabs__item{
+    padding: 0px 0px 10px 20px;
+    height: 60px;
+    font-size: 16px;
+    font-family: PingFang SC, PingFang SC-Regular;
+    font-weight: bold;
+    line-height: 60px;
+    color: #989898;
+    &.is-active{
+      color: #393939;
+    }
+  }
+
+  /deep/ .el-tabs--top .el-tabs__item.is-top:nth-child(2){
+    padding-left: 28px;
+  }
+}

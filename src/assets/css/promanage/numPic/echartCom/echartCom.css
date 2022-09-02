@@ -1,0 +1,30 @@
+.echart_wujiao{
+  flex: 1 1;
+  height: 225px;
+  margin-top: 30px;
+}
+ul{
+  list-style: inherit;
+}
+li::before{
+  width: 4.5px;
+  height:  4.5px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.tiao_main{
+  height: 270px;
+}
+.echart_wujiao2{
+  height: 2.805rem;
+  width: 100%;
+  margin-top: 0.244rem;
+}
+.echart_zhenxian{
+  width: 85%;
+  height: 4.28rem;
+}
+.zhengxian_title{
+  margin-top: 25.5px;
+}
+

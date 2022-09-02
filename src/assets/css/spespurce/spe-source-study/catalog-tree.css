@@ -1,0 +1,143 @@
+.course_catalog_info_main{
+  width: 307px;
+  height: 100%;
+  min-height: 969px;
+}
+
+.no_data_flex_style{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course_catalog_no_data{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course_catalog_info_main::-webkit-scrollbar{
+  width: 4px;
+  height: 4px;
+}
+
+.course_catalog_info_main::-webkit-scrollbar-thumb{
+  background: #dbdbdb;
+  border-radius: 2px;
+}
+
+.course_catalog_tree{
+  width: 307px;
+  height: 100%;
+}
+
+.custom_node_container{
+  margin-left: -5px;
+}
+
+.custom_content_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/*去除树前小三角*/
+.course_catalog_tree /deep/ .el-tree-node__expand-icon.expanded {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.course_catalog_tree /deep/ .el-icon-caret-right:before {
+  content: "\E602";
+  font-size: 18px;
+}
+.course_catalog_tree /deep/ .el-tree-node__expand-icon.expanded.el-icon-caret-right:before {
+  content: "\E63c";
+  font-size: 18px;
+}
+/*去除树前小三角*/
+
+.course_catalog_tree> /deep/ .el-tree-node>.el-tree-node__content:first-child{
+  /*height: 18px;*/
+  font-size: 14px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #8b8b8b;
+  margin-left: -10px;
+}
+
+.course_catalog_tree /deep/ .el-tree-node .el-tree-node__content{
+  height: auto;
+  font-size: 14px;
+  padding:5px 0px 5px 0px;
+  margin-left: -20px;
+}
+
+.custom_node_content{
+  height: 16px;
+  font-size: 16px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #282828;
+}
+
+.custom_node_content:hover {
+  color: rgb(26, 140, 254);
+}
+
+.course_accessory_container{
+  padding:5px 0px 5px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.file_icon_name_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.file_icon_container{
+  width: 18px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.course_accessory_file_name_container{
+  margin-left: 10px;
+}
+
+.course_accessory_link{
+  height: 16px;
+  font-size: 16px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+}
+
+.course_accessory_link:hover {
+  color: rgb(26, 140, 254);
+}
+
+.course_accessory_file_name{
+  height: 16px;
+  font-size: 16px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #282828;
+}
+.course_accessory_file_name:hover {
+  color: rgb(26, 140, 254);
+}
+.selected{
+  color: #00bda5;
+}

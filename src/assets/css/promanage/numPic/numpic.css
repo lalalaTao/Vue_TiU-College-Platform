@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 0.146rem;
+}
+.numpic_main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  min-width: 900px;
+}
+.umpic{
+  width: 73%;
+  margin-top: 0.951rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.umpic_first{
+  width: 100%;
+  height: 375px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 1.5px 7.5px 0px rgba(153,153,153,0.40);
+}
+.title{
+  position: relative;
+  height: 0.543rem;
+  width: 100%;
+  border-bottom: 1px solid #F2F2F2;
+  padding: 0 0.476rem 0 0.421rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hx{
+  font-size: 13.5px;
+  font-family: PingFang SC, PingFang SC-Medium;
+  font-weight: 500;
+  text-align: left;
+  color: #3a3a3a;
+  letter-spacing: 0.14px;
+
+}
+.title_xh{
+  width: 48px;
+  height: 3px;
+  background: #00bda5;
+  border-radius: 1.5px;
+}
+.toroom{
+  width: auto;
+  font-family: PingFang SC, PingFang SC-Medium;
+  font-weight: 500;
+  text-align: left;
+  color: #00bda5;
+  letter-spacing: 0.14px;
+  font-size: 0.165rem;
+}
+.umpic_sec{
+  margin-top: 0.329rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 1.5px 7.5px 0px rgba(153,153,153,0.40);
+}
+.pic_title{
+  margin-top: 0.329rem;
+  width: 100%;
+  display: flex;
+  padding: 0 0.476rem 0 0.421rem;
+  box-sizing: border-box
+}
+.ec_pic{
+  width: 100%;
+  height: 329.25px;
+  display: flex;
+  padding: 0 0.476rem 0 0.421rem;
+  box-sizing: border-box;
+}
+.ec_left{
+  width: 50%;
+  display: flex;
+  margin-right: 20px;
+  /*border: 0.75px solid #ececec;*/
+  /*border-radius: 3px;*/
+}
+.ec_right{
+  width: 50%;
+  height: 100%;
+}
+.wujiao_info{
+  width: 108px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.192rem 0.201rem;
+
+  background: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 1.5px 7.5px 0px rgba(153,153,153,0.40);
+}
+.wujiao_info_args{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  width: 100%;
+}
+.wujiao_info_args li{
+  display: flex;
+  justify-content: space-between;
+}
+.zhexiandiv{
+  width: 100%;
+  height: 4.878rem;
+  display: flex;
+
+  padding: 0 0.476rem 0 0.421rem;
+  box-sizing: border-box;
+}
+.lengen{
+  width: 15%;
+  height: 24%;
+  margin-top: 0.732rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #404040;
+}
+.ccc{
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+}
+.ccc2{
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.name_cirle::before{
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00BDA5;
+  margin-right: 5px;
+
+}
+
+.name_num{
+  color: #00BDA5;
+}
+.xyzhsz::before{
+  content: '';
+  display: inline-block;
+  width: 0.122rem;
+  height: 0.122rem;
+  border-radius: 50%;
+  background-color: #00BDA5;
+  margin-right: 5px;
+}
+.xyzhsz::before{
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00BDA5;
+  margin-right: 5px;
+}
+.stu_info{
+  display: flex;
+  height: 0.896rem;
+  width: 100%;
+  background-color: #A5F2F0;
+  align-items: center;
+  border: 0.75px solid #ececec;
+}
+.tx{
+  border: 2px solid white;
+  width: 33px;
+  height: 33px;
+  background: #84ddde;
+  border-radius: 50%;
+  margin-left: 0.39999999999999997rem;
+  margin-right:0.244rem
+}
+.stu_info_sban{
+  height: 2.232rem;
+  width: 100%;
+  border-top: none;
+  border: 0.75px solid #ececec;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.stu_info_sban_detail{
+  height: 0.427rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin: 0.293rem 0 0.293rem 0.671rem;
+}
+
+
+.ec_pic2{
+  width: 100%;
+  height: 3.854rem;
+  display: flex;
+  padding: 0 0.476rem 0 0.421rem;
+  box-sizing: border-box;
+}

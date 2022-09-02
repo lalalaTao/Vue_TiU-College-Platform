@@ -1,0 +1,103 @@
+.practice_content_menu{
+  min-width: 200px;
+  /*width: 2.973rem;*/
+  width: 23%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 0.128rem;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 2.23px 2.01px 6px 0px rgba(118,118,118,0.30);
+}
+.practice_content_menu_top{
+  height: 3.402rem;
+  overflow-y: auto;
+  width: 90%;
+  font-size: 0.128rem;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #393939;
+}
+.practice_content_menu_buttom{
+  margin-top: 0.165rem;
+  height: 3.713rem;
+}
+.practice_content_menu_zhunque{
+  padding-left: 0.311rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.286rem;
+}
+.point{
+  width: 0.055rem;
+  height: 0.055rem;
+  border-radius: 0.025rem;
+  background: #00bda5;
+  margin-right: 5px;
+}
+.point2{
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 0.055rem;
+  height: 0.055rem;
+  border-radius: 0.025rem;
+  background: red;
+}
+.practice_content_menu_yeno{
+  display: flex;
+  justify-content: right;
+  padding: 0.192rem 0.287rem 0 0.311rem;
+}
+.practice_content_menu_choose{
+  overflow-y: auto;
+  display: flex;
+  justify-content: flex-start;
+  height: 2.2rem;
+  flex-wrap: wrap;
+  margin-left: 0.119rem;
+}
+.practice_content_menu_choose_args{
+  cursor: pointer;
+  height: 0.22rem;
+  width: 0.22rem;
+  border-radius: 0.11rem;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.128rem;
+}
+.practice_content_menu_choose .practice_content_menu_choose_args:not(:nth-child(7n +1)){
+  margin-left: 0.146rem;
+}
+.practice_content_menu_choose .practice_content_menu_choose_args_p:not(:nth-child(-n +7)){
+  margin-top: 0.22rem;
+}
+
+.practice_content_menu_choose .practice_content_menu_choose_args_p:nth-child(-n +7){
+  margin-top: 0.11rem;
+}
+
+.practice_content_menu_buttom_next{
+  margin-top: 0.165rem;
+  margin-left: 0.321rem;
+  display: flex;
+  justify-content: space-between;
+}
+.practice_content_menu_buttom_reset{
+  margin-top: 0.177rem;
+  display: flex;
+  align-items: center;
+  margin-left: 0.321rem;
+}
+.refresh{
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 0.195rem;
+  font-weight: bold;
+  -webkit-transform: rotate(180deg);
+}

@@ -1,0 +1,33 @@
+.args_mian{
+  width: 100%;
+  display: flex;
+  font-size: 0.146rem;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #282828;
+}
+.args_mian_content{
+  font-size: 0.128rem;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  color: #282828;
+  display: flex;
+}
+.args_mian_content .args:not(:first-child){
+  margin-left: 0.183rem;
+}
+.args{
+  cursor: pointer;
+  padding: 0 0.183rem;
+  border-radius: 0.11rem;
+  height: 0.22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.active{
+  background-color: #00bda5;
+  color: white;
+}

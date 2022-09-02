@@ -1,0 +1,16 @@
+.course_catalog_info_main{
+  width: 100%;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px 0px rgba(118,118,118,0.30);
+  font-size: 14px;
+}
+
+.course_catalog_info_tabs{
+  width: 95%;
+  display: inline-block;
+  vertical-align:top;
+  background: #fff;
+  padding-left: 30px;
+  padding-top: 20px;
+}

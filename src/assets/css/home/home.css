@@ -1,0 +1,18 @@
+.main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 90;
+}
+.home_content{
+  width: 72%;
+  margin-top: 0.568rem;
+
+}
+
+.home_content .main:not(:first-child) {
+  /*padding-left: 0.5%;*/
+  margin-top: 0.348rem;
+}

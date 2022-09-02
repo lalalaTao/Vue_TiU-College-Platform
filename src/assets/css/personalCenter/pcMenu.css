@@ -1,0 +1,117 @@
+.main_pcMenu{
+  width: 185px;
+  height: 680px;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px 0px rgba(118,118,118,0.30);
+  /*display: flex;
+  flex-direction: column;
+  align-items:flex-start;*/
+}
+.userInfo{
+  width: 100%;
+  height: 178px;
+  /*display: flex;*/
+  justify-content: center;
+  /*border: 1px solid red;*/
+
+  flex-direction: column;
+}
+.headImgDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+.headImg{
+  width: 62px;
+  height: 62px;
+  border-radius: 31px;
+  background: #c4dbd8;
+}
+.realName{
+  font-size: 14px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 23px;
+}
+.userName{
+  font-size: 12px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+  font-weight: 400;
+  text-align: center;
+  color: #949494;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.userInfoSplidLineDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.userInfoSplidLine{
+  width: 152px;
+  height: 1px;
+  background: #f8f8f8;
+  border-radius: 1px;
+  margin-top: 24px;
+}
+
+
+
+.leftMenu{
+  width: 100%;
+  height: 425px;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*border: 1px solid red;*/
+}
+.leftMenuLine{
+  display: flex;
+  width: 100%;
+  height: 42px;
+
+  display: flex;
+  cursor: pointer;
+}
+.leftMenuLine:hover{
+  /*background-color: red;*/
+}
+.leftMenuIcoDiv{
+  width: 16px;
+  height: 14px;
+  /*border: 1px solid red;*/
+  margin-left: 30px;
+  /*cursor: pointer;*/
+}
+.leftMenuIcoLink{
+  margin-left: 13px;
+  font-size: 14px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #333333;
+  /*cursor: pointer;*/
+
+}
+
+
+.leftMenuIcoDiv img{
+  width: 16px;
+  height: 14px;
+}
+.hideImg{
+  position: relative;
+  top: 1px;
+}
+
+

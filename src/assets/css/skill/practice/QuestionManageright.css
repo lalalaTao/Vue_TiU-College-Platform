@@ -1,0 +1,95 @@
+.practice_content_topic{
+  /*width: 9.659rem;*/
+  width: 75.5%;
+  height: 7.29rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.146rem;
+
+  border-radius: 3px;
+  box-shadow: 2.23px 2.01px 6px 0px rgba(118,118,118,0.30);
+}
+.practice_status{
+  height: 0.173rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.practice_content_word{
+  margin-top: 0.256rem;
+  height:4.079rem;
+  overflow-y: auto;
+  border-bottom: 1.5px solid #f8f8f8;;
+}
+
+.practice_content_word_content{
+  display: flex;
+  font-family: PingFang SC, PingFang SC-Medium;
+  font-weight: 500;
+  text-align: left;
+  color: #393939;
+  line-height: 0.329rem;
+}
+.practice_content_word_question{
+  margin-top: 0.695rem;
+}
+.answer{
+  display: flex;
+  width: 2.744rem;
+  height: 0.402rem;
+  background: #f8f8f8;
+  border-radius: 0.037rem;
+  margin-bottom: 0.11rem;
+  align-items: center;
+  padding-left: 0.165rem;
+}
+.answer_code{
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.22rem;
+  height: 0.22rem;
+  border-radius: 0.11rem;
+}
+.worng{
+  background-color: #FF6961;
+  color: white;
+}
+.bgcwrong{
+  background-color: #FFECEB;
+}
+
+.rightans{
+  background-color:#00BDA5;
+  color: white;
+}
+
+.bgrightans{
+  background-color: #E0F7F4;
+}
+
+.practice_content_ex{
+  margin-top: 0.07rem;
+}
+.practice_content_anysls{
+  height: 0.732rem;
+  margin-top: 0.122rem;
+  overflow-y: auto;
+
+  font-size: 0.146rem;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #393939;
+  line-height: 0.293rem;
+}
+.practice_content_botton{
+  display: flex;
+  justify-content: right;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0.266rem;
+  font-size: 0.146rem;
+}

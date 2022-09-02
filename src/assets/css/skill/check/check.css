@@ -1,0 +1,14 @@
+.check_main{
+  height: 0.878rem;
+  padding: 0.174rem 0.302rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 3px 6px 0px rgba(118,118,118,0.30);
+}
+.check_main .args_mian:not(:first-child){
+  margin-top: 0.201rem;
+}

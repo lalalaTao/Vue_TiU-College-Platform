@@ -1,0 +1,18 @@
+.top_location{
+  width: 257px;
+  height: 16px;
+  font-size: 16px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #737373;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.location_icon{
+  width: 10px;
+  height: 14px;
+  margin-right: 5px;
+}

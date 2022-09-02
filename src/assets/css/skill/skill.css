@@ -1,0 +1,74 @@
+.skill_main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-width: 900px;
+}
+.skill_banner{
+  z-index: 90
+}
+.skill_search{
+  min-width: 600px;
+  width: 7.317rem;
+  height: 0.476rem;
+  position: absolute;
+  z-index: 1112;
+  top:2.058rem;
+  background: #ffffff;
+  border-radius: 0.284rem;
+  display: flex;
+  align-items: center;
+  border: 0.046rem solid #67B3A9;
+  min-height: 39px;
+  margin-left: 0.5rem;
+
+}
+.skill_search /deep/ .el-select{
+  width: 1.976rem;
+  font-size: 0.146rem;
+  height: 0.402rem;
+  min-height: 39px;
+}
+
+.el-select /deep/ .el-input__inner{
+  border-bottom-left-radius: 0.284rem;
+  border-top-left-radius: 0.284rem;
+  border: none;
+}
+.skill_search /deep/ .el-input__inner{
+  border: none;
+  border-bottom-right-radius: 0.284rem;
+  border-top-right-radius: 0.284rem;
+  height: 0.402rem;
+  min-height: 39px;
+}
+.search_button{
+  height: 0.402rem;
+  background: linear-gradient(-64deg,#00b09a 0%, #00d4b9 100%);
+  border-radius: 0.201rem;
+  min-height: 33px;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 4px;
+  font-size: 0.146rem;
+}
+.el-icon-search{
+  font-size: 0.195rem;
+}
+.el-select /deep/ .el-select__caret{
+  display: flex;
+  align-items: center;
+}
+
+.skill_choose{
+  margin-top: 0.22rem;
+  width: 72%;
+}
+
+.skill_content{
+  width: 72%;
+  margin-top: 0.256rem;
+}

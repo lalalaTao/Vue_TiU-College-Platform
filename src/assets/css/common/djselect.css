@@ -1,0 +1,197 @@
+#zz{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#djselectcs{
+  display: none;
+  /*position: absolute;*/
+  width: 716px;
+  height: 508px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-shadow: 1px 4px 14px 0px rgba(115, 122, 128, 0.2);
+  border-radius: 4px;
+  /*z-index: 1000;*/
+  /*top: -63px;*/
+  /*top:48px;*/
+  /*right: 0px;*/
+  position: fixed;
+  z-index: 3000;
+  top: 25%;
+  left: 35%;
+}
+#djselectcs2{
+  display: none;
+  /*position: absolute;*/
+  width: 716px;
+  height: 508px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-shadow: 1px 4px 14px 0px rgba(115, 122, 128, 0.2);
+  border-radius: 4px;
+  /*z-index: 1000;*/
+  /*top: -63px;*/
+  /*top:48px;*/
+  /*right: 0px;*/
+  position: fixed;
+  z-index: 3000;
+  /*top: 25%;*/
+  top: -1000px;
+  left: 35%;
+}
+#djselectcs3{
+  display: none;
+  /*position: absolute;*/
+  width: 716px;
+  height: 508px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-shadow: 1px 4px 14px 0px rgba(115, 122, 128, 0.2);
+  border-radius: 4px;
+  /*z-index: 1000;*/
+  /*top: -63px;*/
+  /*top:48px;*/
+  /*right: 0px;*/
+  position: fixed;
+  z-index: 3000;
+  top: 25%;
+  left: 35%;
+}
+#djselectcs4{
+  display: none;
+  /*position: absolute;*/
+  width: 716px;
+  height: 508px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-shadow: 1px 4px 14px 0px rgba(115, 122, 128, 0.2);
+  border-radius: 4px;
+  /*z-index: 1000;*/
+  /*top: -63px;*/
+  /*top:48px;*/
+  /*right: 0px;*/
+  position: fixed;
+  z-index: 3000;
+  top: -1000px;
+  /*top: 25%;*/
+  left: 35%;
+}
+#djselectcs5{
+  display: none;
+  /*position: absolute;*/
+  width: 716px;
+  height: 508px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-shadow: 1px 4px 14px 0px rgba(115, 122, 128, 0.2);
+  border-radius: 4px;
+  /*z-index: 1000;*/
+  /*top: -63px;*/
+  /*top:388px;*/
+  /*right: 377px;*/
+  position: fixed;
+  z-index: 3000;
+  top: 25%;
+  left: 35%;
+}
+.djs_top{
+  width: 716px;
+  height: 51px;
+  line-height: 51px;
+}
+.closed{
+  width: 14px;
+  height: 14px;
+  float: right;
+  background-image: url('../../images/digital_portrait_tea/close.png');
+  background-size: 100% 100%;
+  margin-right: 30px;
+  position: relative;
+  top: 19px;
+  cursor: pointer;
+}
+.dij_line{
+  width: 716px;
+  height: 1px;
+  background: #EAEAEA;
+}
+.dij_panel{
+  height: 456px;
+  width: 820px;
+}
+.dij_left{
+  height: 456px;
+  width: 211px;
+  float: left;
+}
+.dijl_panel{
+  width: 211px;
+  height: 444px;
+  position: relative;
+  top: 6px;
+  overflow: auto;
+}
+.dijl_item{
+  width: 210px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #515151;
+  cursor: pointer;
+  /*margin: 0 auto;*/
+}
+.dijl_item:hover{
+  background: #EAF3FD;
+}
+.dijp_line{
+  height: 456px;
+  width: 1px;
+  background: #EAEAEA;
+  float: left;
+}
+.dij_right{
+  height: 456px;
+  width: 524px;
+  float: left;
+}
+.dijr_panel{
+  width: 524px;
+  height: 456px;
+  overflow: auto;
+  position: relative;
+  /*top: 9px;*/
+}
+.dijr_item{
+  width: 140px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #515151;
+  float: left;
+  margin-top: 9px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.dijr_item:hover{
+  background: #EAF3FD;
+}
+.dijr_item5{
+  width: 75px;
+  height: 32px;
+  /*margin-left: 28px;*/
+}
+.dijl_item5{
+  width: 131px;
+}

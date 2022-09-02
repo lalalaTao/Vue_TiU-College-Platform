@@ -1,0 +1,56 @@
+.e_book_catalogue_main{
+  width: 100%;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px 0px rgba(118,118,118,0.30);
+  font-size: 14px;
+  .e_book_catalog_tabs{
+    width: 95%;
+    display: inline-block;
+    vertical-align:top;
+    background: #fff;
+    padding-left: 30px;
+    padding-top: 20px;
+    /deep/ .el-tabs__active-bar {
+      width: 100% !important;
+      height: 5px;
+      background: #00bda5;
+      border-radius: 3px;
+    }
+    /deep/ .el-tabs__nav-wrap::after {
+      background-color: transparent;
+    }
+    /deep/ .el-tabs__item {
+      font-size: 20px;
+      font-family: PingFang SC, PingFang SC-Medium;
+      font-weight: 500;
+      text-align: left;
+      color: #282828;
+    }
+    /deep/ .e_book_catalogue_tree{
+      width: 100%;
+      .custom_node_container{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .custom_node_content{
+          height: 36px;
+          font-size: 18px;
+          font-family: PingFang SC, PingFang SC-Medium;
+          font-weight: 500;
+          text-align: left;
+          color: #282828;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+        }
+      }
+      .el-tree-node__content{
+        height: auto;
+        padding: 5px 0px 5px 0px;
+        border-bottom: 1px solid #f8f8f8;
+      }
+    }
+  }
+}

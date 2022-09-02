@@ -1,0 +1,101 @@
+.detail_info{
+  height: 2.085rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 33px 0.421rem 0.265rem 0.421rem;
+}
+.detail_info_left{
+  height: 2.085rem;
+  width: 3.293rem;
+}
+.detail_info_right{
+  flex: 1 1 auto;
+  position: relative;
+  padding-left: 0.366rem;
+  margin: 0;
+}
+img{
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.el-dialog__wrapper /deep/ .el-dialog__body{
+  padding: 0;
+}
+.el-dialog__wrapper /deep/ .el-dialog__header{
+  padding-left:0.366rem;
+}
+.detail_info_right_bq{
+
+}
+
+.elbutton_detail{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1.098rem;
+  display: flex;
+  justify-content: center;
+}
+.detail_info_right_bq1{
+  height: 18px;
+  width: 98px;
+  font-size: 10.5px;
+  background-color: #DFF5F2;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  color: #00A18D;
+}
+
+.detail_info_right_bq2{
+  font-size: 16.5px;
+  font-family: PingFang SC, PingFang SC-Bold;
+  font-weight: 700;
+  text-align: left;
+  color: #3f3f3f;
+  margin-top: 15px;
+}
+.detail_info_right_bq3{
+  font-size: 10.5px;
+  font-family: PingFang SC, PingFang SC-Regular;
+  font-weight: 400;
+  color: #989898;
+  margin-top: 15px;
+}
+
+.el-icon-view{
+  margin-left: 20px;
+}
+
+.elbutton_detail{
+  background-color: #00BDA5;
+  color: white;
+}
+.detail_but{
+  height: 1.61rem;
+  display: flex;
+  margin: 0 0.421rem 0 0.421rem;
+  justify-content: space-between;
+}
+/* 资源详情页 每个Button的样式 */
+.detail_but_arg{
+  cursor: pointer;
+  font-size: 0.136rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:  0.348rem 0 0 0  ;
+  width: 1.163rem;
+  height: 0.659rem;
+  /*background: linear-gradient(14deg,#3b6fff 0%, #4091ff 37%, #97d7ff 100%);*/
+  border-radius: 0.037rem;
+  color: white;
+  box-shadow: 0px 0.037rem 0.11rem 0px rgba(0,56,212,0.20);
+}
+.detail_but_arg img{
+  width: 0.336rem;
+  height: 0.336rem;
+  margin-right: 0.11rem;
+}
